@@ -1,0 +1,14 @@
+.form{
+  border-color: white;
+}
+.radio{
+  position: fixed;
+  right: 25px;
+  z-index: 1001;
+}
+.radioCol{
+  color: red;
+}
+.label{
+  margin: 0;
+}

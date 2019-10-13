@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+.back{
+  background-color: black;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.topic{
+  color: white;
+}
+.trending{
+  font-size: 50px;
+  color: white;
+  font-family: 'Luckiest Guy', cursive;
+}
+.form{
+  padding-bottom: 40px;
+}

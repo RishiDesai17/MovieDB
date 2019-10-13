@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Indie+Flower&display=swap');
+.main{
+  margin: 10px;
+}
+.card{
+  display: flex;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+.main :hover{
+  opacity:0.8;
+}
+.title{
+  font-family: 'Permanent Marker', cursive;
+}
+.overview{
+  font-size: 16px;
+  font-family: 'Indie Flower', cursive;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  flex: 1 0 auto;
+  color: white;
+}
+.content:hover{
+  opacity:1;
+}
+.cover{
+  width: 160px;
+  height: 100%;
+}
+.cover:hover{
+  opacity:1;
+}
+.modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalTitle{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 70px;
+  margin-bottom: 25px;
+}
+.rating{
+  font-family: 'Permanent Marker', cursive;
+}
+.date{
+  font-family: 'Permanent Marker', cursive;
+}
+.span{
+  font-size: 13px;
+}
+.star{
+  font-size: 30px;
+}
+.modalDiv{
+  display: flex;
+}
+.modalContent{
+  flex: 1 0 auto;
+  color: white;
+}
